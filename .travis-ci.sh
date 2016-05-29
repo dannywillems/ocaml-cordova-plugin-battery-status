@@ -30,6 +30,8 @@ eval `opam config env`
 
 export OCAMLRUNPARAM=b
 
+opam install ocamlfind ppx_tools js_of_ocaml gen_js_api
+
 # Test for make and make clean
 make && make clean
 
